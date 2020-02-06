@@ -33,7 +33,7 @@
             <TileMatrixSetLink>
                 <TileMatrixSet>DGM_1M_UPPER_AUSTRIA</TileMatrixSet>
             </TileMatrixSetLink>
-            <ResourceURL format="application/zip" resourceType="tile" template="gdfgdfgdf/DGM_1M_UPPER_AUSTRIA/{TileCol}/{TileRow}.asc.zip"/>
+            <ResourceURL format="application/zip" resourceType="tile" template="https://raw.githubusercontent.com/maegger/GPS_INFO_PSI_TESTSERVICE/master//DGM_1M_UPPER_AUSTRIA/{TileCol}/{TileRow}.asc.zip"/>
         </Layer>
         <TileMatrixSet>
             <ows:Title>DGM_1M_UPPER_AUSTRIA</ows:Title>
@@ -50,5 +50,5 @@
             </TileMatrix>
         </TileMatrixSet>
     </Contents>
-    <ServiceMetadataURL xlink:href="gdfgdfgdf"/>
+    <ServiceMetadataURL xlink:href="https://raw.githubusercontent.com/maegger/GPS_INFO_PSI_TESTSERVICE/master"/>
 </Capabilities>
