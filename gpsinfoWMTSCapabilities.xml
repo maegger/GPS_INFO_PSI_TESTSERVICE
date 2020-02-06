@@ -38,7 +38,7 @@
         <TileMatrixSet>
             <ows:Title>DGM_1M_UPPER_AUSTRIA</ows:Title>
             <ows:Identifier>DGM_1M_UPPER_AUSTRIA</ows:Identifier>
-            <ows:SupportedCRS>urn:ogc:def:crs:EPSG::31255</ows:SupportedCRS>
+            <ows:SupportedCRS>urn:ogc:def:crs:EPSG::0</ows:SupportedCRS>
             <TileMatrix>
                 <ows:Identifier>0</ows:Identifier>
                 <ScaleDenominator>3.5714285714e+03</ScaleDenominator>
