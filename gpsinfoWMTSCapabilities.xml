@@ -42,7 +42,7 @@
             <TileMatrix>
                 <ows:Identifier>0</ows:Identifier>
                 <ScaleDenominator>3.5714285714e+03</ScaleDenominator>
-                <TopLeftCorner>6.0150500000e+04 2.9178850000e+05</TopLeftCorner>
+                <TopLeftCorner>6.0150500000e+04 2.9538950000e+05</TopLeftCorner>
                 <TileWidth>100</TileWidth>
                 <TileHeight>100</TileHeight>
                 <MatrixWidth>51</MatrixWidth>
