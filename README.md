@@ -4,4 +4,4 @@ DGM_1M_UPPER_AUSTRIA:
 Datenquelle: geoland.at ; Lizenz: CC-BY 4.0
 
 DGM_1M_EISENSTADT:
-Datenquelle: Land Burgenland
+Datenquelle: Amt der Burgenländischen Landesregierung
