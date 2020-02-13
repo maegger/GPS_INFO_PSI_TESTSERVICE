@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd" version="1.0.0">
     <ows:ServiceIdentification>
+        <ows:Title>AT_OGD_DHM_LAMB_10M_ELEVATION_COMPRESSED</ows:Title>
+        <ows:Keywords>
+            <ows:Keyword>gpsinfo</ows:Keyword>
+        </ows:Keywords>
+        <ows:ServiceType>OGC WMTS</ows:ServiceType>
+        <ows:ServiceTypeVersion>2.0</ows:ServiceTypeVersion>
+        <ows:Fees>none</ows:Fees>
+        <ows:AccessConstraints>https://creativecommons.org/licenses/by/4.0/</ows:AccessConstraints>
+    </ows:ServiceIdentification>
+    <ows:ServiceProvider>
+        <ows:ProviderName>Rechenraum GmbH</ows:ProviderName>
+        <ows:ProviderSite xlink:href="https://www.rechenraum.com"/>
+        <ows:ServiceContact>
+            <ows:ContactInfo>
+                <ows:Address>
+                    <ows:City>Vienna</ows:City>
+                    <ows:Country>Austria</ows:Country>
+                    <ows:ElectronicMailAddress>office@rechenraum.com</ows:ElectronicMailAddress>
+                </ows:Address>
+            </ows:ContactInfo>
+        </ows:ServiceContact>
+    </ows:ServiceProvider>
+    <Contents>
+        <Layer>
+            <ows:Title>AT_OGD_DHM_LAMB_10M_ELEVATION_COMPRESSED</ows:Title>
+            <ows:Abstract>10x10m OGD Elevation Data of Austria (Stand 20191030, https://www.data.gv.at/katalog/dataset/land-ktn_digitales-gelandemodell-dgm-osterreich)
+</ows:Abstract>
+            <ows:Identifier>AT_OGD_DHM_LAMB_10M_ELEVATION_COMPRESSED</ows:Identifier>
+            <Style isDefault="true"/>
+            <Format>application/zip</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>AT_OGD_DHM_LAMB_10M_ELEVATION_COMPRESSED</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="application/zip" resourceType="tile" template="http://gpsinfo.org/service_wmts/AT_OGD_DHM_LAMB_10M_ELEVATION_COMPRESSED/{TileCol}/{TileRow}.asc.zip"/>
+        </Layer>
+        <TileMatrixSet>
+            <ows:Title>AT_OGD_DHM_LAMB_10M_ELEVATION_COMPRESSED</ows:Title>
+            <ows:Identifier>AT_OGD_DHM_LAMB_10M_ELEVATION_COMPRESSED</ows:Identifier>
+            <ows:SupportedCRS>urn:ogc:def:crs:EPSG::31287</ows:SupportedCRS>
+            <TileMatrix>
+                <ows:Identifier>0</ows:Identifier>
+                <ScaleDenominator>3.5714285714e+04</ScaleDenominator>
+                <TopLeftCorner>1.0887500000e+05 5.8655500000e+05</TopLeftCorner>
+                <TileWidth>150</TileWidth>
+                <TileHeight>150</TileHeight>
+                <MatrixWidth>388</MatrixWidth>
+                <MatrixHeight>212</MatrixHeight>
+            </TileMatrix>
+        </TileMatrixSet>
+    </Contents>
+    
+    <ows:ServiceIdentification>
         <ows:Title>DGM_1M_EISENSTADT</ows:Title>
         <ows:Keywords>
             <ows:Keyword>gpsinfo</ows:Keyword>
